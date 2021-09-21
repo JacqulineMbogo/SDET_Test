@@ -1,0 +1,2 @@
+rootProject.name = "Kyosk-SDET"
+include ':app'

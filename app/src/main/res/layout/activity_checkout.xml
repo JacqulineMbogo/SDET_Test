@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/header"
+                    android:textSize="@dimen/text_extra_large"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
+                    android:text="@string/paymentmethod"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/padding_extralarge"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mpesabutton"
+                    android:text="@string/lipanampesa"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="@dimen/padding_too_large"
+                    android:layout_marginLeft="@dimen/padding_too_large"
+                    android:layout_marginTop="@dimen/padding_extralarge"
+                    android:layout_marginBottom="@dimen/padding_too_large"
+                    android:layout_alignParentBottom="true"/>
+
+
+
+            </RelativeLayout>
+
+
+        </ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

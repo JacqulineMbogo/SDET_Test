@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_lay2"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thanks"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/thankshop"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/thanks"
+            android:id="@+id/your_request"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/paynow"
+            android:gravity="center"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_2"
+            android:padding="@dimen/padding_medium"
+            android:layout_below="@+id/your_request"
+            >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/amount"
+                android:hint="@string/amounts"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/padding_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/continuebtn"
+                android:text="@string/continue_tag"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rounder_small_green"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/padding_small"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/extralayout"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thanks1"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/thankshop"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/thanks1"
+            android:id="@+id/your_request1"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="Please enter the Transaction code"
+            android:gravity="center"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/extralayout_2"
+            android:layout_below="@+id/your_request1"
+
+            >
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/amount1"
+                android:hint="Code..."
+                android:textColor="@color/black"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/padding_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/continuebtn1"
+                android:text="Finish"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rounder_small_green"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/padding_small"/>
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative_lay3"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imagedone"
+            android:src="@drawable/ic_baseline_done_24"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_large"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/payments"
+            android:layout_below="@+id/imagedone"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/payments"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/payments"
+            android:id="@+id/shop"
+            android:textStyle="normal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:text="@string/thankshop"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/shopimage"
+            android:gravity="center"
+            android:text="Continue Shopping"
+            android:paddingLeft="20dp"
+            android:background="@color/white"
+            android:layout_below="@+id/shop"
+
+            android:tint="@color/colorPrimary"
+            android:paddingTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal|bold"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homebutton"
+            android:gravity="center"
+            android:text="Order Details"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/shopimage"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorPrimary"
+
+            android:tint="@color/colorPrimary"
+            android:textStyle="normal|bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/homebutton2"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="Finish transaction"
+            android:background="@color/white"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/shopimage"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorPrimary"
+
+            android:tint="@color/colorPrimary"
+            android:textStyle="normal|bold"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

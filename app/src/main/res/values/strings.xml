@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Kyosk-SDET-Test</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ok">Ok</string>
+    <string name="Instructions">PLEASE SELECT ANY OF THE FOLLOWING:</string>
+    <string name="placeorder">Place Order</string>
+    <string name="cancelorder">Cancel the Order </string>
+    <string name="viewcart">1. View Cart</string>
+    <string name="vieworders">2. View Orders </string>
+    <string name="exit">3. Exit application</string>
+    <string name="catalog">ITEMS IN THE CATALOG</string>
+    <string name="network_not_connected">Network Error. Please connect to the internet and try again.</string>
+    <string name="addtocart">Add To Cart</string>
+    <string name="qty">Qty</string>
+    <string name="network_error">Network Error</string>
+    <string name="fail_todeletecart">Something went wrong</string>
+    <string name="you_have">You have</string>
+    <string name="product_in_cart">Products in cart</string>
+    <string name="prod_name">Item</string>
+    <string name="price">Price</string>
+    <string name="cart_subtotal">SubTotal</string>
+    <string name="shipping_fee">shipping</string>
+    <string name="order_total">Order Total</string>
+    <string name="place_order">Checkout</string>
+    <string name="fail_toordersummery">Something went wrong</string>
+
+    <string name="paymentmethod">Payment Method</string>
+
+    <string name="thankyou">Thank You</string>
+    <string name="your_orderPlaced">Your Order Has \n Been Received</string>
+    <string name="we_will_inform_you">We will  SMS you \n about your order info and delivery date.</string>
+    <string name="continue_shipping">Continue Shopping</string>
+    <string name="order_history">Order History</string>
+    <string name="lipanampesa">lipa Na Mpesa</string>
+    <string name="view_details">View Details</string>
+    <string name="pricetag">Price</string>
+    <string name="orderid">Order Id</string>
+    <string name="orderinformation">order information</string>
+    <string name="fail_toorderhistory">failed  to get order history</string>
+    <string name="select">Select payment option</string>
+    <string name="failorder">transaction unsuccessful</string>
+
+    <string name="orderinfo">Continue to make payment </string>
+    <string name="pay">Make Payment  </string>
+    <string name="amount">Enter amount  \n payment should be at least 50% of the total amount</string>
+    <string name="about">   Ukulima Poultry intends to be the largest poultry products \n
+                            producing company!\n
+                            It has so far started two parent stock farms, two hatcheries,\n
+                            a feeds factory, a chicken out-grower scheme and a slaughter house. \n
+                            It is in our plans to increase the production of chicken to tackle \n
+                            the ever growing demand for chicken products.\n
+                            Located in Kirinyaga, Kenya, Ululima Poultry is \n
+                            a modern, advanced and synthesized poultry company seeking after\n
+                            2F plus M (Farming, Factory and Marketing) which unifies \n
+                            production, processing and distribution. From parent stock breeding;\n
+                            production of eggs; hatching; feeds production; broiler rearing; processing and \n
+                            distribution of dressed poultry; Ukulima poultry farm endeavors to reduce product cost while \n
+                            improving quality and hygiene.</string>
+
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+    <string name="display">1</string>
+    <string name="ksh">Ksh</string>
+    <string name="fail_togetaddress">Something went wrong</string>
+    <string name="thankshop">Thank you for shopping with us</string>
+    <string name="paynow">Amount to pay</string>
+    <string name="amounts">Amount</string>
+    <string name="continue_tag">Continue</string>
+    <string name="payments">Payments</string>
+    <string name="billing_addrss">Billing Address</string>
+    <string name="paymentondelivery">Payment will be made upon delivery</string>
+    <string name="orders">View My Orders</string>
+    <string name="fail_toeditcart">Failed to edit cart quantity</string>
+
+</resources>
